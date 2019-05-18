@@ -1,0 +1,13 @@
+/vendor/
+/storage/
+/tests/_data/
+/tests/_output/*
+/tests/_support/_generated/
+public/images/*
+/composer.lock
+/cache/
+.idea
+.env
+.env.production
+.env.development
+/bootstrap/cache/

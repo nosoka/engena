@@ -1,0 +1,12 @@
+class_name: ApiTester
+modules:
+    enabled:
+        - \Helper\Api
+        - Asserts
+        - Laravel5:
+            environment_file: .env
+        - PhpBrowser:
+            url: http://api.engena.dev/api/
+        - REST:
+            depends: PhpBrowser
+            depends: Asserts
